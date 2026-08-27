@@ -6,6 +6,6 @@
     "lodash": "4.17.20"
   },
   "scripts": {
-    "test": "node -e \"console.log('ok')\""
+    "test": "sleep 180 && node -e \"console.log('ok')\""
   }
 }

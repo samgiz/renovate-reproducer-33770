@@ -7,6 +7,9 @@ The checked-in configuration has a closed `schedule`, an open
 previously prevented an existing PR from reaching Renovate's PR automerge
 logic.
 
+The workflow's test command waits three minutes before succeeding. This keeps
+the initial Renovate PR open long enough to restore the closed schedule.
+
 ## Reproduction
 
 1. Push this repository to a disposable GitHub repository and enable

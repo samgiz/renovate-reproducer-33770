@@ -4,6 +4,7 @@
   "automergeType": "pr",
   "automergeSchedule": ["at any time"],
   "schedule": ["* * 1 1 *"],
+  "timezone": "UTC",
   "updateNotScheduled": false,
   "packageRules": [
     {
