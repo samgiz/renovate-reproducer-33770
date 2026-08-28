@@ -3,7 +3,7 @@
   "automerge": true,
   "automergeType": "pr",
   "automergeSchedule": ["at any time"],
-  "schedule": ["* * 1 1 *"],
+  "schedule": ["* 9 * * *"],
   "timezone": "UTC",
   "updateNotScheduled": false,
   "packageRules": [
